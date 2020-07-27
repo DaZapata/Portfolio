@@ -191,6 +191,7 @@ figure {
     display: flex;
     padding: 20px;
     justify-content: space-around;
+   
 }
 
 .experience-biography { 
@@ -215,13 +216,15 @@ figure {
     position: relative;
     text-align: center;
     padding: 10px;
+    height: 257px;
 }
 
 .experience-url {
     border: 1px solid;
     padding: 5px 20px;
     text-decoration: none;
-    color: #056fff;
+    /* color: #056fff; */
+    color: #85c638;
     border-radius: 5px;
 }
 
