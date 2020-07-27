@@ -1,0 +1,292 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Open Sans', sans-serif;
+    color:  #fafafa;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1.5em;
+    letter-spacing: -.2px;
+    color:  #fafafa;
+    margin: 0px;
+}
+
+h1 strong {
+    color:#85c638;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.5em;
+    letter-spacing: -.2px;
+    color:  #85c638;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+h7 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #fafafa;
+    
+}
+
+.hero {
+    height: 300px;
+    /* background-image: url('./images/familia.jpg'); */
+    background-color: #273b47;
+    /* background-size: 600px 300px; */
+    /* background-repeat: no-repeat; */
+    background-position-x: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.relleno {
+    height: 20px;
+    background: #85c638;
+}
+
+.hero-image {
+    object-fit: cover;
+}
+
+.biography, 
+.wife, 
+.son, 
+.pet {
+    background:  #273b47;
+    padding: 30px;
+}
+
+.biography {
+    padding: 0 30px 30px 30px;
+}
+
+.project, 
+.wife-biography, 
+.son-biography, 
+.pet-biography{
+   border: 1px solid yellowgreen;
+   border-radius: 10px;
+   margin: 10px;
+   padding: 20px;
+   background: #fafafa;
+   display: flex;
+   justify-content: space-between;
+}
+
+.wife-biography,
+.pet-biography {
+    flex-direction: row-reverse;
+}
+
+.project-description, 
+.wife-description, 
+.son-description,
+.pet-description {
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.pet-description {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.pet-biography {
+    align-items: center;
+}
+
+.project-title {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.header {
+    background-color:#85c638;
+    height: 70px;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header li {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;  
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header ol li {
+    height: inherit;
+}
+
+.menu {
+    height: inherit;
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+.footer {
+    color: #fafafa;
+    background-color: #273b47;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a {
+    color: white;
+}
+
+.experience{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.experience-biography { 
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: gray;
+}
+
+.experience img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.experience-detail {
+    margin: 20px 40px;
+    background-color:white;
+    margin-top: -80px;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+
+.experience-url {
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #056fff;
+    border-radius: 5px;
+}
+
+.contact {
+   background-color:#85c638;
+   height: 150px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+ .social-links {
+     display: inline-block;
+     width: 50px;
+     height: 50px;
+     background-size: 50px 50px;
+     margin: 0 10px;
+ }
+
+ .social-links.twitter {
+     background-image: url(./images/icons8-twitter.svg);
+ }
+
+ .social-links.facebook {
+    background-image: url(./images/icons8-facebook.svg);
+}
+
+.social-links.github {
+    background-image: url(./images/icons8-github.svg);
+}
+
+.social-links.linkedin {
+    background-image: url(./images/icons8-linkedin.svg);
+}
+
+.form-email input {
+    border-color: gray;
+    padding: 5px 20px 5px 25px;
+    border-radius: 5px;
+    border-style: solid;
+    background-image: url(./images/envelope.svg);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.form-email button {
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    padding: 5px 0;
+    color: white;
+    width: 100px;
+    border-radius: 5px;
+    border-color: gray;
+}
+
+.container {
+    /* border: 1px solid red; */
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+  
+}
